@@ -1,6 +1,12 @@
 const express = require('express');
 const models = require('../models');
 
+/*
+  This is an alternate style for structuring your controllers.
+  This style names all route handler functions and all route
+  matching is one place, the registerRouter() function, at the
+  top of the controller file.
+*/
 const AltController = {
   registerRouter() {
     const router = express.Router();
