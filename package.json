@@ -4,21 +4,21 @@
   "description": "Starter code for an Express/Sequelize backend.",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon -L app.js",
+    "start": "nodemon app.js",
     "test": "jest"
   },
   "author": "Edgardo Molina",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^21.2.1"
+    "jest": "^24.8.0"
   },
   "dependencies": {
     "body-parser": "^1.18.2",
     "express": "^4.16.1",
-    "express-handlebars": "^3.0.0",
-    "nodemon": "^1.18.7",
+    "express-handlebars": "^3.1.0",
+    "nodemon": "^1.19.1",
     "pg": "^7.3.0",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^4.41.0"
+    "sequelize": "^5.9.0"
   }
 }
