@@ -19,6 +19,6 @@
     "nodemon": "^1.19.1",
     "pg": "^7.3.0",
     "pg-hstore": "^2.3.2",
-    "sequelize": "^5.9.0"
+    "sequelize": "^5.15.1"
   }
 }
